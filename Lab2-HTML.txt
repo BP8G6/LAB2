@@ -1,0 +1,12 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<div id="map"></div>
+<p><h1>Direction Display</h1></p>
+<table>
+    <tr><td>Source:</td> 
+    <td><input type ="text" id="i1" name="Source"></td></tr>
+    <tr><td>Destination:</td>
+     <td><input type="text" id="i2" name="dest"></td></tr>
+  </table>
+<button id="button">Submit</button>
+        <button id="clbutton">Clear</button>
+<div id="map_view" style="height: 500px; width: 500px"></div>
